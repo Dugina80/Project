@@ -1,0 +1,14 @@
+.dance-general-layout {
+    max-width: 1400px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  background-image: url("../../../image/job297-ploy-07a-purple-01.jpg");
+
+    &_page-content {
+flex: 1 1 auto;
+max-width: 100%;
+
+
+    }
+}
