@@ -1,0 +1,47 @@
+.photo-container {
+  display: flex;
+  justify-content: center;
+  
+  flex-wrap: wrap;
+  width: 100%; 
+  height: auto; 
+ margin-bottom: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+img {
+  width: 450px; 
+  height: 400px; 
+  object-fit: cover;
+
+}}
+
+.expanded-photo {
+  max-width: 100%;
+  max-height: 100vh;
+  object-fit: contain;
+}
+
+
+.pp-block {
+  text-align: center;
+
+  width: 100%;
+
+  &_title {
+margin: 30px auto;
+text-transform:uppercase;
+  font-family: "Ubuntu", Sans-serif;
+  font-weight: 700;
+  line-height: 2;
+  font-size: 150%;
+
+  border-width: 0 0 2px 0;
+  border-style: solid;
+  border-color: #b05be6;
+  display: inline-block;
+  text-shadow: 2px 2px 4px rgba(37, 16, 49, 0.5);
+  }
+
+ 
+
+}

@@ -3,7 +3,29 @@
     padding: 30px 60px;
     background-color: rgb(179, 160, 231, 0.5);
    
-    
+    &_logo-text {
+      font-size: 20px;
+      font-family: Ubuntu sans-serif;
+      font-style: normal;
+      letter-spacing: 0.7px;
+    font-weight: 700;
+   
+    line-height: 30px;
+    color: #313234;
+    text-shadow: 2px 2px 4px rgba(250, 24, 182, 0.5);;
+    }
+    &_logo-text:last-of-type {
+      font-size: 20px;
+      font-family: Ubuntu sans-serif;
+      font-style: normal;
+      letter-spacing: 0.7px;
+    font-weight: 700;
+   
+    line-height: 30px;
+    color: #313234;
+    text-shadow: 2px 2px 4px rgba(250, 24, 182, 0.5);
+    }
+
     &_logo-image {
       
         overflow: hidden;
@@ -19,17 +41,7 @@
         }
       }
     
-    p {
-      font-size: 20px;
-      font-family: Ubuntu sans-serif;
-      font-style: normal;
-      letter-spacing: 0.7px;
-    font-weight: 700;
-   
-    line-height: 30px;
-    color: #313234;
-    text-shadow: 2px 2px 4px rgba(41, 30, 48, 0.5);
-    }
+  
     
     &_header {
       height: 100px;
@@ -55,4 +67,12 @@
     text-shadow: 2px 2px 4px rgba(241, 236, 244, 0.5);
     color: #313234;
     }
+  }
+
+  .custom-menu {
+    background-color: rgb(179, 160, 231, 0.5);
+  }
+
+  .custom-arrow {
+    color: rgba(35, 31, 45, 0.5);
   }

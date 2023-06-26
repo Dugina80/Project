@@ -19,19 +19,19 @@ function Footer() {
         <p> м.Полтава <br />
         ТЦ Метрополітан <br />
         вул. Гоголя 36, 3й поверх <br /></p>
-       
-        <p> Контактний телефон: <br />
-        066-645-48-51</p>
+       <br />
+        <h3> Контактний телефон: <br />
+        066-645-48-51</h3>
         </div>
-      <div >
-        <h3 className="dance-footer_contacts-text">Ми в соціальних мережах</h3>
-        <div className="dance-footer-contacts_icons"><span className="dance-footer-contacts_icons-item">
+      <div className="dance-footer-contacts_link">
+        <h3 >Ми в соціальних мережах</h3>
+        <div className="dance-footer-contacts_link-icons"><span className="dance-footer-contacts_icons-item">
             <ImFacebook2/>
           </span>
-          <span className="dance-footer-contacts_icons-item">
+          <span className="dance-footer-contacts_link-icons">
             <AiFillInstagram/>
           </span>
-          <span className="dance-footer-contacts_icons-item">
+          <span className="dance-footer-contacts_link-icons">
             < IoLogoYoutube/>
           </span>
           </div>

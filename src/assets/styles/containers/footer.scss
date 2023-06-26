@@ -5,7 +5,7 @@
     display: flex;
     align-items: center;
     
-    gap: 0px;
+   
         img {
             width: 10%;
             margin-right: 100px;
@@ -21,14 +21,16 @@
  justify-content: space-around;
     align-items: center;
     gap: 400px;
-    border-width: 0 0 0 3px;
+    border-width: 0 0 0 
+    px;
      border-color: #c50ef8;
      margin: 0 0 20px;
    
 }
 
-.dance-footer-contacts_icons {
-    display: flex;
+.dance-footer-contacts_link {
+    &-icons {
+         display: flex;
     color: #333333;
         justify-content: space-between;
         align-items: center;
@@ -43,6 +45,7 @@
             cursor: pointer;
       
         }
+    }
 }
 
 .dance-footer_contacts-text {
