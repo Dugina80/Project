@@ -15,10 +15,12 @@ const MapComponent = () => {
     lng: 34.55231791482751,
   };
 
+  const apiKey = process.env.REACT_APP_API_KEY_MAP;
+
   return (
     <div className="map-container">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyC0_LEiDWg_StvOe1mJqX1zstuB40nwVlQ" }}
+        bootstrapURLKeys={{ key: apiKey }}
         defaultCenter={center}
         defaultZoom={16}
       >

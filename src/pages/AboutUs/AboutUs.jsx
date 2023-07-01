@@ -5,7 +5,9 @@ function AboutUs() {
   return (
     <section>
       <div className="abus-container">
-        <h1 className="abus-container_title">ПРАВИЛА ВІДВІДУВАННЯ ТАНЦЮВАЛЬНОЇ ШКОЛИ GUBA-TEAM </h1>
+        <h1 className="abus-container_title">
+          ПРАВИЛА ВІДВІДУВАННЯ ТАНЦЮВАЛЬНОЇ ШКОЛИ GUBA-TEAM{" "}
+        </h1>
       </div>
       <div className="abus-container_item">
         <ol>

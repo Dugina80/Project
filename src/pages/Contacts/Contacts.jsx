@@ -7,9 +7,9 @@ function Contacts() {
   return (
     <section>
       <div className="dance-contact_container">
-        
         <div className="dance-contact_container-block">
-          <div><h1 className="dance-contact_container-title">Контакти</h1>
+          <div>
+            <h1 className="dance-contact_container-title">Контакти</h1>
             <p>
               м.Полтава <br />
               ТЦ Метрополітан <br />

@@ -1,15 +1,21 @@
 .map-container {
-    height: 400px;
-    width: 600px;
-    
+  height: 400px;
+  width: 600px;
+  @media (max-width: 900px) {
+    height: 300px;
+    width: 500px;
   }
-  
-  .marker {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 32px;
-    height: 32px;
-    color: red;
+  @media (max-width: 800px) {
+    height: 300px;
+    width: 450px;
   }
+}
 
+.marker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  color: red;
+}

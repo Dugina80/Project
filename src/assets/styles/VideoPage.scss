@@ -1,23 +1,31 @@
 .video-grid {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 
-    &_title {
-        margin-top: 10px;
+  &_title {
+    margin-top: 10px;
     font-family: "Ubuntu", Sans-serif;
     text-transform: uppercase;
     font-style: normal;
     font-weight: 800;
-    line-height: 30px;  
+    line-height: 30px;
     text-shadow: 2px 2px 4px rgba(122, 11, 100, 0.5);
-    }
   }
-  
-  .video-item {
-    flex-basis: 33.33%; 
-    padding: 10px;
-    box-sizing: border-box;
-  }
+}
 
+.video-item {
+  flex-basis: 33.33%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+  .video-container {
+    width: 450px;
+    height: 300px;
+  }
+}
