@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Row, Col, Grid, Modal } from "antd";
+import { Row, Col, Modal } from "antd";
 
 import hall1 from "../../../image/gallery/зображення_viber_2023-06-22_13-04-59-377.jpg";
 import hall2 from "../../../image/gallery/зображення_viber_2023-06-22_13-04-59-578.jpg";
