@@ -30,7 +30,7 @@ function Header() {
     return () => {
       window.removeEventListener("resize", handleResizeWrapper);
     };
-  }, [isModalVisible, handleResize]);
+  }, [handleResize]);
 
   const toggleModal = () => {
     setIsModalVisible(!isModalVisible);

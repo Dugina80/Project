@@ -59,7 +59,7 @@ function PhotoPage() {
         <h2 className="pp-block_title">Танцювальні зали</h2>
 
         <div>
-          <Row>
+        <Row>
             {hallPhotos.map((photo, index) => (
               <Col key={index} span={24} sm={12} md={8}>
                 <div className="photo-container" onClick={() => openModal(photo)}>
@@ -73,7 +73,7 @@ function PhotoPage() {
       <div className="pp-block">
         <h2 className="pp-block_title">Галерея</h2>
         <div>
-          <Row>
+        <Row>
             {galleryPhotos.map((photo, index) => (
               <Col key={index} span={24} sm={12} md={8}>
                 <div className="photo-container" onClick={() => openModal(photo)}>
