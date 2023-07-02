@@ -5,26 +5,19 @@
 
   &_logo-text {
     font-size: 20px;
-    font-family: Ubuntu sans-serif;
+    font-family: "Ubuntu" sans-serif;
     font-style: normal;
     letter-spacing: 0.7px;
     font-weight: 700;
     line-height: 30px;
     color: #313234;
     text-shadow: 2px 2px 4px rgba(250, 24, 182, 0.5);
-  }
+  
 
-  &_logo-text:last-of-type {
-    font-size: 20px;
-    font-family: Ubuntu sans-serif;
-    font-style: normal;
-    letter-spacing: 0.7px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #313234;
-    text-shadow: 2px 2px 4px rgba(250, 24, 182, 0.5);
+  @media screen and (max-width: 415px) {
+display: none;
   }
-
+}
   &_logo-image {
     overflow: hidden;
     display: flex;
@@ -34,6 +27,13 @@
 
     img {
       max-width: 30%;
+
+      @media screen and (max-width: 420px) {
+        max-width: 50%;
+      }
+      @media screen and (max-width: 390px) {
+        max-width: 60%;
+      }
     }
   }
 
@@ -52,7 +52,7 @@
     justify-content: center;
     gap: 50px;
     font-size: 20px;
-    font-family: Ubuntu sans-serif;
+    font-family: "Ubuntu" sans-serif;
     font-style: normal;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(241, 236, 244, 0.5);

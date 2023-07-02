@@ -101,18 +101,31 @@
 .custom-modal .ant-modal-content {
   width: 570px;
   height: 570px;
+
 }
 
 @media (max-width: 720px) {
   .custom-modal .ant-modal-content {
-    width: 470px;
+    width: 450px;
     height: 450px;
   }
 }
 @media (max-width: 550px) {
   .custom-modal .ant-modal-content {
-    width: 430px;
+    width: 410px;
     height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .custom-modal .ant-modal-content {
+    width: 380px;
+    height: 390px;
+  }
+}
+@media (max-width: 420px) {
+  .custom-modal .ant-modal-content {
+    width: 330px;
+    height: 340px;
   }
 }
 
@@ -137,6 +150,20 @@
   .expanded-photo {
     max-width: 400px;
     max-height: 340px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 480px) {
+  .expanded-photo {
+    max-width: 320px;
+    max-height: 350px;
+    object-fit: contain;
+  }
+}
+@media (max-width: 420px) {
+  .expanded-photo {
+    max-width: 270px;
+    max-height: 300px;
     object-fit: contain;
   }
 }

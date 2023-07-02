@@ -5,7 +5,6 @@
 .hp-block_one,
 .hp-block_two {
   width: 100%;
-
   display: flex;
   flex-direction: row;
   gap: 100px;
@@ -105,6 +104,12 @@
   @media screen and (max-width: 500px) {
     max-width: 400px;
   }
+  @media screen and (max-width: 420px) {
+    max-width: 350px;
+  }
+  @media screen and (max-width: 370px) {
+    max-width: 330px;
+  }
 }
 
 .swiper-button-next::after,
@@ -129,6 +134,9 @@
     @media screen and (max-width: 750px) {
       gap: 20px;
     }
+    @media screen and (max-width: 390px) {
+      gap: 10px;
+    }
 
     img {
       max-width: 300px;
@@ -142,6 +150,12 @@
       }
       @media screen and (max-width: 500px) {
         max-width: 180px;
+      }
+      @media screen and (max-width: 410px) {
+        max-width: 170px;
+      }
+      @media screen and (max-width: 390px) {
+        max-width: 160px;
       }
     }
     h3 {
@@ -208,8 +222,8 @@
   }
 }
 
-@media screen and (max-width: 1433px) {
+@media screen and (max-width: 645px) {
   .hp-block_two-content {
-    margin: 20px;
+  gap: 0;
   }
 }
