@@ -12,22 +12,27 @@ function Footer() {
       <img src={logo} alt="logo" />
       <div className="dance-footer_contacts">
         <div className="dance-footer_contacts-text">
-          <h3> Адреса і телефон</h3>
-          <p>
+          <div>
+              <h3 className="dance-footer_contacts-title" > Адреса і телефон</h3>
+         
             м.Полтава <br />
             ТЦ Метрополітан <br />
             вул. Гоголя 36, 3й поверх <br />
-          </p>
+          
           <br />
+          </div>
+        
           <h3>
         Контактний телефон: <br />
         <a className="tel" href="tel:+380666454851">066-645-48-51</a>
       </h3>
         </div>
-        <div className="dance-footer-contacts_link">
-          <h3 className="dance-footer-contacts_link-title">
+
+        <div className="dance-footer-contacts_link">  
+             <h3 className="dance-footer-contact_link-title">
             Ми в соціальних мережах
           </h3>
+        
           <div className="dance-footer-contacts_link-icons">
             <a
               href="https://www.facebook.com/profile.php?id=100017976466640"

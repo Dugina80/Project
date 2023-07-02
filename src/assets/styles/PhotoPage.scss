@@ -15,35 +15,60 @@
     object-fit: cover;
   }
 }
-
-@media (max-width: 1225px) {
+@media (max-width: 1400px) {
   .photo-container img {
-    max-width: 400px;
+    max-width: 430px;
     max-height: 350px;
   }
 }
-@media (max-width: 1110px) {
+@media (max-width: 1330px) {
   .photo-container img {
-    max-width: 350px;
-    max-height: 300px;
+    max-width: 410px;
+    max-height: 350px;
   }
 }
-@media (max-width: 950px) {
+
+@media (max-width: 1275px) {
+  .photo-container img {
+    max-width: 370px;
+    max-height: 350px;
+    gap: 10px;
+  }
+}
+@media (max-width: 1140px) {
+  .photo-container img {
+    max-width: 350px;
+    max-height: 350px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 1085px) {
+  .photo-container img {
+    max-width: 320px;
+    max-height: 300px;
+    gap: 10px;
+  }
+}
+@media (max-width: 985px) {
   .photo-container img {
     max-width: 300px;
     max-height: 250px;
+    gap: 10px;
   }
 }
-@media (max-width: 800px) {
+@media (max-width: 915px) {
   .photo-container img {
     max-width: 250px;
     max-height: 200px;
+    gap: 10px;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 790px) {
   .photo-container img {
-    max-width: 300px;
+    max-width: 240px;
     max-height: 250px;
+    gap: 10px;
   }
 }
 
