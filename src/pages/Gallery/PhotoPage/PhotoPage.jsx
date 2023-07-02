@@ -24,7 +24,6 @@ import foto15 from "../../../image/gallery/foto/зображення_viber_2023-
 import "../../../assets/styles/PhotoPage.scss";
 
 function PhotoPage() {
-  const screens = Grid.useBreakpoint();
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
   const openModal = (photo) => {
@@ -64,7 +63,7 @@ function PhotoPage() {
             {hallPhotos.map((photo, index) => (
               <Col key={index} span={24} sm={12} md={8}>
                 <div className="photo-container" onClick={() => openModal(photo)}>
-                  <img src={photo} alt={`hall${index + 1}`} />
+                  <img src={photo} alt="" />
                 </div>
               </Col>
             ))}
@@ -78,7 +77,7 @@ function PhotoPage() {
             {galleryPhotos.map((photo, index) => (
               <Col key={index} span={24} sm={12} md={8}>
                 <div className="photo-container" onClick={() => openModal(photo)}>
-                  <img src={photo} alt={`foto${index + 1}`} />
+                  <img src={photo} alt="" />
                 </div>
               </Col>
             ))}
