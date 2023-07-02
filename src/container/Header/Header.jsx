@@ -8,8 +8,6 @@ import { HEADER_NAVIGATION_LINKS } from "./constant";
 import "../../assets/styles/containers/header.scss";
 import logo from "../../image/logo-removebg-preview.png";
 
-const { SubMenu } = Menu;
-
 function Header() {
   const [isBurgerVisible, setIsBurgerVisible] = useState(false);
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -27,9 +25,10 @@ function Header() {
 
   useEffect(() => {
     handleResize();
-    window.addEventListener("resize", handleResize);
+    const handleResizeWrapper = () => handleResize();
+    window.addEventListener("resize", handleResizeWrapper);
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", handleResizeWrapper);
     };
   }, [isModalVisible]);
 

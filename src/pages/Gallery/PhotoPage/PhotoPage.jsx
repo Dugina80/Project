@@ -35,9 +35,24 @@ function PhotoPage() {
     setSelectedPhoto(null);
   };
 
-  const hallPhotos = [hall1, hall2, hall3]; 
-  const galleryPhotos = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12, foto13, foto14, foto15
-  ]; 
+  const hallPhotos = [hall1, hall2, hall3];
+  const galleryPhotos = [
+    foto1,
+    foto2,
+    foto3,
+    foto4,
+    foto5,
+    foto6,
+    foto7,
+    foto8,
+    foto9,
+    foto10,
+    foto11,
+    foto12,
+    foto13,
+    foto14,
+    foto15,
+  ];
 
   return (
     <section>
