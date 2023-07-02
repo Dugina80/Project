@@ -20,9 +20,9 @@ function Footer() {
           </p>
           <br />
           <h3>
-            Контактний телефон: <br />
-            066-645-48-51
-          </h3>
+        Контактний телефон: <br />
+        <a className="tel" href="tel:+380666454851">066-645-48-51</a>
+      </h3>
         </div>
         <div className="dance-footer-contacts_link">
           <h3 className="dance-footer-contacts_link-title">
@@ -32,18 +32,24 @@ function Footer() {
             <a
               href="https://www.facebook.com/profile.php?id=100017976466640"
               className="dance-footer-contacts_icons-item"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <ImFacebook2 />
             </a>
             <a
               href="https://www.instagram.com/guba.team/"
               className="dance-footer-contacts_link-item"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <AiFillInstagram />
             </a>
             <a
               href="https://www.youtube.com/@topdancegubateam/videos"
               className="dance-footer-contacts_link-item"
+              target="_blank"
+              rel="noopener noreferrer"
             >
               <IoLogoYoutube />
             </a>

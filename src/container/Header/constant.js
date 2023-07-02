@@ -1,11 +1,11 @@
 export const HEADER_NAVIGATION_LINKS = [
-    { label: "HOME", value: "/" },
-    { label: "ABOUT US", value: "/aboutUs" },
-    { label: "SCHEDULE", value: "/schedule" },
-    { label: "GALLERY", value: "/gallery", submenu: [
-      { label: "Фото", value: "/photo" },
-      { label: "Видео", value: "/video" }
+    { label: "ГОЛОВНА", value: "/" },
+    { label: "ПРАВИЛА", value: "/aboutUs" },
+    { label: "РОЗКЛАД", value: "/schedule" },
+    { label: "ГАЛЕРЕЯ", value: "/gallery", submenu: [
+      { label: "ФОТО", value: "/photo" },
+      { label: "ВІДЕО", value: "/video" }
     ]},
-    { label: "CONTACT US ", value: "/contacts" },
+    { label: "КОНТАКТИ ", value: "/contacts" },
     
   ];

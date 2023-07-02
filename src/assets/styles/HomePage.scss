@@ -30,7 +30,7 @@
     }
 
     &_text {
-      font-family: Ubuntu sans-serif;
+      font-family: "Ubuntu" sans-serif;
       font-style: normal;
       letter-spacing: 0.5px;
       font-weight: 800;
@@ -102,6 +102,9 @@
   @media screen and (max-width: 630px) {
     max-width: 480px;
   }
+  @media screen and (max-width: 500px) {
+    max-width: 400px;
+  }
 }
 
 .swiper-button-next::after,
@@ -136,6 +139,9 @@
       }
       @media screen and (max-width: 550px) {
         max-width: 200px;
+      }
+      @media screen and (max-width: 500px) {
+        max-width: 180px;
       }
     }
     h3 {

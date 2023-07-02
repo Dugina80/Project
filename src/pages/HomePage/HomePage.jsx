@@ -91,6 +91,19 @@ function HomePage() {
           й знайти нових друзів.
         </p>
       </div>
+      <div className="hp-trainer">
+        <h2 className="hp-title">НАШІ ТРЕНЕРИ</h2>
+        <div className="hp-trainer_foto">
+          <div>
+            <h3>Юлія Губа</h3>
+            <img src={Tr1} alt="foto trainer" />
+          </div>
+          <div>
+            <h3>Сергій Губа</h3>
+            <img src={Tr2} alt="foto trainer" />
+          </div>
+        </div>
+      </div>
       <div className="hp-child">
         <h2 className="hp-title">ТАНЦІ ДЛЯ ДІТЕЙ</h2>
       </div>
@@ -154,19 +167,7 @@ function HomePage() {
           </p>
         </div>
       </div>
-      <div className="hp-trainer">
-        <h2 className="hp-title">НАШІ ТРЕНЕРИ</h2>
-        <div className="hp-trainer_foto">
-          <div>
-            <h3>Юлія Губа</h3>
-            <img src={Tr1} alt="foto trainer" />
-          </div>
-          <div>
-            <h3>Сергій Губа</h3>
-            <img src={Tr2} alt="foto trainer" />
-          </div>
-        </div>
-      </div>
+      
     </section>
   );
 }

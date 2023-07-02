@@ -35,6 +35,10 @@ function PhotoPage() {
     setSelectedPhoto(null);
   };
 
+  const hallPhotos = [hall1, hall2, hall3]; 
+  const galleryPhotos = [foto1, foto2, foto3, foto4, foto5, foto6, foto7, foto8, foto9, foto10, foto11, foto12, foto13, foto14, foto15
+  ]; 
+
   return (
     <section>
       <div className="pp-block">
@@ -42,21 +46,13 @@ function PhotoPage() {
 
         <div>
           <Row>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(hall1)}>
-                <img src={hall1} alt="hall1" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(hall2)}>
-                <img src={hall2} alt="hall2" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(hall3)}>
-                <img src={hall3} alt="hall3" />
-              </div>
-            </Col>
+            {hallPhotos.map((photo, index) => (
+              <Col key={index} span={24} sm={12} md={8}>
+                <div className="photo-container" onClick={() => openModal(photo)}>
+                  <img src={photo} alt={`hall${index + 1}`} />
+                </div>
+              </Col>
+            ))}
           </Row>
         </div>
       </div>
@@ -64,99 +60,13 @@ function PhotoPage() {
         <h2 className="pp-block_title">Галерея</h2>
         <div>
           <Row>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto1)}>
-                <img src={foto1} alt="foto1" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto2)}>
-                <img src={foto2} alt="foto2" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto3)}>
-                <img src={foto3} alt="hfoto3" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto4)}>
-                <img src={foto4} alt="foto4" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto5)}>
-                <img src={foto5} alt="foto5" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto6)}>
-                <img src={foto6} alt="foto6" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto7)}>
-                <img src={foto7} alt="foto7" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto8)}>
-                <img src={foto8} alt="foto8" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div className="photo-container" onClick={() => openModal(foto9)}>
-                <img src={foto9} alt="foto9" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto10)}
-              >
-                <img src={foto10} alt="foto10" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto11)}
-              >
-                <img src={foto11} alt="foto11" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto12)}
-              >
-                <img src={foto12} alt="foto12" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto13)}
-              >
-                <img src={foto13} alt="foto13" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto14)}
-              >
-                <img src={foto14} alt="foto14" />
-              </div>
-            </Col>
-            <Col span={24} sm={12} md={8}>
-              <div
-                className="photo-container"
-                onClick={() => openModal(foto15)}
-              >
-                <img src={foto15} alt="foto15" />
-              </div>
-            </Col>
+            {galleryPhotos.map((photo, index) => (
+              <Col key={index} span={24} sm={12} md={8}>
+                <div className="photo-container" onClick={() => openModal(photo)}>
+                  <img src={photo} alt={`foto${index + 1}`} />
+                </div>
+              </Col>
+            ))}
           </Row>
         </div>
         <Modal
