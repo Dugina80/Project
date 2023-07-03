@@ -50,7 +50,7 @@ display: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 35px;
     font-size: 20px;
     font-family: "Ubuntu" sans-serif;
     font-style: normal;
@@ -58,6 +58,9 @@ display: none;
     text-shadow: 2px 2px 4px rgba(241, 236, 244, 0.5);
     color: #313234;
 
+    @media (max-width: 1328px) {
+     gap: 20px;
+  }
     
   }
 }
@@ -111,18 +114,18 @@ display: none;
 .ant-modal-content {
   border-radius: 8px;
   width: 200px;
-  height: 190px;
+  height: 230px;
   background-color: rgba(244, 234, 249, 0.8) !important;
 
   @media (max-width: 670px) {
     background-color: rgba(244, 234, 249) !important;
     width: 180px;
-  height: 190px;
+  height: 230px;
   }
   @media (max-width: 493px) {
     background-color: rgba(244, 234, 249) !important;
     width: 160px;
-  height: 180px;
+  height: 195px;
   }
 
 

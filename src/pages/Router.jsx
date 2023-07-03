@@ -7,6 +7,8 @@ import Contacts from "./Contacts";
 import PhotoPage from "./Gallery/PhotoPage";
 import VideoPage from "./Gallery/VideoPage";
 import GeneralLayout from "../layouts/GeneralLayout";
+import Trainers from "./Trainers";
+
 
 
 
@@ -22,6 +24,7 @@ const Router = () => (
          <Route path="/" element={renderWithLayout(HomePage)}/>
         <Route path="aboutUs" element={renderWithLayout(AboutUs)}/>
         <Route path="schedule" element={renderWithLayout(Schedule)}/>
+       <Route path="trainers" element={renderWithLayout(Trainers)}/>
         <Route path="gallery/photos" element={renderWithLayout(PhotoPage)} />
         <Route path="gallery/videos" element={renderWithLayout(VideoPage)} />
         <Route path="contacts" element={renderWithLayout(Contacts)}/>
