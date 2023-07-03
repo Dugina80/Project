@@ -14,7 +14,7 @@
     text-shadow: 2px 2px 4px rgba(250, 24, 182, 0.5);
   
 
-  @media screen and (max-width: 415px) {
+  @media screen and (max-width: 493px) {
 display: none;
   }
 }
@@ -57,6 +57,8 @@ display: none;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(241, 236, 244, 0.5);
     color: #313234;
+
+    
   }
 }
 
@@ -95,6 +97,11 @@ display: none;
   color: #260231;
   font-size: 16px;
   text-decoration: none;
+  @media (max-width: 493px) {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+
 }
 
 .custom-arrow {
@@ -106,6 +113,18 @@ display: none;
   width: 200px;
   height: 190px;
   background-color: rgba(244, 234, 249, 0.8) !important;
+
+  @media (max-width: 670px) {
+    background-color: rgba(244, 234, 249) !important;
+    width: 180px;
+  height: 190px;
+  }
+  @media (max-width: 493px) {
+    background-color: rgba(244, 234, 249) !important;
+    width: 160px;
+  height: 180px;
+  }
+
 
   .modal-navigation {
     display: flex;
@@ -127,4 +146,25 @@ display: none;
   top: 105px;
   right: -150px;
   transform: translateY(-50%);
+
+  @media (max-width: 670px) {
+    top: 105px;
+    right: -300px;
+  }
+  @media (max-width: 535px) {
+    top: 105px;
+    right: -275px;
+  }
+  @media (max-width: 510px) {
+    top: 105px;
+    right: -260px;
+  }
+  @media (max-width: 493px) {
+    top: 105px;
+    right: -180px;
+  }
+  @media (max-width: 390px) {
+    top: 105px;
+    right: -140px;
+  }
 }

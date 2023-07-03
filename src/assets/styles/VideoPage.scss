@@ -29,3 +29,22 @@
     height: 300px;
   }
 }
+
+@media (max-width: 500px) {
+  .video-container {
+    width: 400px;
+    height: 300px;
+  }
+}
+@media (max-width: 444px) {
+  .video-container {
+    width: 350px;
+    height: 280px;
+  }
+}
+@media (max-width: 390px) {
+  .video-container {
+    width: 320px;
+    height: 200px;
+  }
+}

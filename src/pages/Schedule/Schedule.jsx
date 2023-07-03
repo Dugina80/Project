@@ -1,5 +1,6 @@
 import React from "react";
-import { Row, Col, Image  } from "antd";
+import { Row, Col, Image } from "antd";
+import "../../assets/styles/Schedule.scss";
 
 import fotoSchedule from "../../image/зображення_viber_2023-06-28_09-48-41-743.jpg";
 
