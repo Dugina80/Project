@@ -22,7 +22,7 @@ function Coaches() {
             </div>
             <div className="trainer-foto_item">
               <h3 className="trainer-foto_item-text">
-                Сергій Губа <br />
+               СЕРГІЙ ГУБА<br />
                 Балетмейстер-постановник <br />
                 Полтавської обласної філармонії
               </h3>
